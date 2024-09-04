@@ -22,8 +22,29 @@ const HomePage = () => {
             </div>
         </div>
 
-        <div className="mb-8">
+        <div className="pb-8 md:px-8">
             <h1 className="text-center text-4xl text-gray-500 font-semibold text-purple-600 ">About Us</h1>
+            <div className="md:flex mt-20">
+                <div className="md:my-0 my-4 w-full md:mr-4 bg-white py-4 px-6 duration-500 hover:shadow-2xl">
+                    <h1 className="text-purple-600 text-xl font-semibold text-center">Welcome to BlackAlphaLabs</h1>
+                    <p className="my-4">
+                        At <span className='text-purple-600 font-semibold'>BlackAlphaLabs</span>, we are more than just a software company; we are innovators, creators, and problem-solvers dedicated to transforming ideas into reality. Founded with a passion for technology and a commitment to excellence, we strive to deliver cutting-edge solutions that empower businesses to thrive in the digital age.
+                    </p>
+                </div>
+                <div className="md:my-0 my-4 w-full md:mr-4 bg-white py-4 px-6 duration-500 hover:shadow-2xl">
+                    <h1 className="text-purple-600 text-xl font-semibold text-center">Our Story</h1>
+                    <p className="my-4">
+                        <span className='text-purple-600 font-semibold'>BlackAlphaLabs</span> was born out of a desire to create a company that not only excels in technology but also makes a meaningful impact. Our founders, with years of experience in the software industry, recognized the growing need for custom solutions that address specific business challenges. What started as a small team of passionate developers has grown into a full-fledged software company, serving clients across various industries.
+                    </p>
+                </div>
+            </div>
+
+            <div className="md:flex my-8">
+                <div className="md:my-0 my-4 w-full md:mr-4 bg-white py-4 px-6 duration-500 hover:shadow-2xl">
+                    <h1 className="text-purple-600 text-xl font-semibold text-center">Our Story</h1>
+                </div>
+                <div className="md:my-0 my-4 w-full md:mr-4 bg-white py-4 px-6 duration-500 hover:shadow-2xl"></div>
+            </div>
         </div>
     </div>
   )
