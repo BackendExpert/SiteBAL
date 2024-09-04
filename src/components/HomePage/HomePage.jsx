@@ -14,12 +14,16 @@ const HomePage = () => {
                 </p>
 
                 <div className="mt-8">
-                    <button className='bg-purple-500 text-white py-4 px-16 rounded-full duration-500 hover:bg-purple-600'>Get Started</button>
+                    <button className='bg-purple-600 text-white py-4 px-16 rounded-full duration-500 hover:bg-purple-700'>Get Started</button>
                 </div>
             </div>
             <div className="w-full md:block hidden">
                 <img src={HPRight} alt="" />
             </div>
+        </div>
+
+        <div className="mb-8">
+            <h1 className="text-center text-4xl text-gray-500 font-semibold text-purple-600 ">About Us</h1>
         </div>
     </div>
   )
