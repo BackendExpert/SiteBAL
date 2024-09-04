@@ -12,6 +12,10 @@ const HomePage = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis asperiores tempora sunt quisquam est ullam deserunt assumenda quasi doloremque at debitis quidem, amet ea magnam, voluptate dignissimos, ex eligendi.
                     Vitae quasi nisi soluta fugiat similique, voluptates blanditiis, cupiditate error voluptatum exercitationem sapiente id esse eius praesentium, commodi suscipit sint natus. Provident quos repudiandae, eum alias reiciendis totam voluptas eveniet.
                 </p>
+
+                <div className="mt-8">
+                    <button className='bg-purple-500 text-white py-4 px-16 rounded-full duration-500 hover:bg-purple-600'>Get Started</button>
+                </div>
             </div>
             <div className="w-full md:block hidden">
                 <img src={HPRight} alt="" />
