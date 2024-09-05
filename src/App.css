@@ -2,3 +2,7 @@
     --purpleColor: #A020F0;
     --btnhoverColor: white;
 }
+
+.titleText{
+    color: var(--purpleColor)
+}

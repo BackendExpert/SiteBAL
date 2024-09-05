@@ -1,5 +1,6 @@
 import React from 'react'
 import ServiceImg from '../../assets/Services.png'
+import BtnDefault from '../Buttons/BtnDefault'
 
 const OurPortfolio = () => {
     const Projects = [
@@ -64,7 +65,7 @@ const OurPortfolio = () => {
             <center>
                 <a href="">
                     <div className="mt-8">
-                        <button className='bg-purple-600 text-white py-4 px-16 rounded-full duration-500 hover:bg-purple-700'>View Our Projects</button>
+                        <BtnDefault btnTitle={"View More Projects"} />
                     </div>
                 </a>
             </center>
