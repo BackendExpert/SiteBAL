@@ -40,7 +40,7 @@ const UserSay = () => {
 
   return (
     <div data-aos="zoom-in" className="w-full mx-auto pt-16">
-      <h2 className="text-center text-4xl text-gray-500 font-semibold text-purple-600 ">What Our Clients Say</h2>
+      <h2 className="text-center text-4xl text-gray-500 font-semibold text-purple-600 mb-12">What Our Clients Say</h2>
       
       {/* Testimonial */}
       <div className="w-full mx-auto">
