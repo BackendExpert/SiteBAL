@@ -8,6 +8,7 @@ import BtnDefault from '../Buttons/BtnDefault'
 import Typewriter from './TypeWriter'
 import { TypeAnimation } from 'react-type-animation';
 import UserSay from './UserSay'
+import OurTeam from './OurTeam'
 
 const HomePage = () => {
     const services = [
@@ -109,7 +110,7 @@ const HomePage = () => {
         </div>  
 
         <div className="pb-8 md:px-24 px-8 bg-purple-500/20">
-            <OurPortfolio />
+            <OurTeam />
         </div> 
         
     </div>
