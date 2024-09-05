@@ -54,7 +54,7 @@ const OurPortfolio = () => {
                 {
                     Projects.map((project, index) => {
                         return (
-                            <div className="bg-white p-4 rounded duration-500 hover:shadow-xl md:my-0 my-4" key={index}>
+                            <div data-aos="zoom-in" className="bg-white p-4 rounded-2xl duration-500 hover:shadow-xl md:my-0 my-4" key={index}>
                                 <center><img src={project.img} alt="" className='h-40 w-auto'/></center>
                                 <h1 className="text-center text-purple-500 font-bold">{project.name}</h1>
                             </div>
