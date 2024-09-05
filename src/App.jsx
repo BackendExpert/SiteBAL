@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import NavBar from "./components/HomePage/NavBar";
+import './App.css'
 
 export default function App() {
   const [showNavBar, setShowNavBar] = useState(true);

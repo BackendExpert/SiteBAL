@@ -34,7 +34,7 @@ const NavBar = () => {
 
                 <div className="hidden md:flex space-x-6">
                     {navData.map((data) => (
-                        <a href={data.link} key={data.id} className="block duration-500 hover:underline">
+                        <a href={data.link} key={data.id} className="block duration-500 hover:underline font-bold">
                             {data.name}
                         </a>
                     ))}
