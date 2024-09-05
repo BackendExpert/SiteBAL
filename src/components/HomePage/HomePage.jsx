@@ -9,6 +9,7 @@ import Typewriter from './TypeWriter'
 import { TypeAnimation } from 'react-type-animation';
 import UserSay from './UserSay'
 import OurTeam from './OurTeam'
+import Tech from './Tech'
 
 const HomePage = () => {
     const services = [
@@ -106,12 +107,17 @@ const HomePage = () => {
         </div>  
 
         <div className="pb-16 md:px-24 px-8 bg-white">
-            <UserSay />
+            <OurTeam />
         </div>  
 
         <div className="pb-8 md:px-24 px-8 bg-purple-500/20">
-            <OurTeam />
-        </div> 
+            <UserSay />
+        </div>
+
+        <div className="pb-16 md:px-24 px-8 bg-white">
+            <Tech />
+        </div>  
+ 
         
     </div>
   )

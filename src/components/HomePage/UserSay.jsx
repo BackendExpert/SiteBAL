@@ -45,7 +45,7 @@ const UserSay = () => {
       {/* Testimonial */}
       <div className="w-full mx-auto">
         <div 
-          className={`p-6 bg-purple-500/20 rounded-lg shadow-lg transition-opacity duration-500 ease-in-out ${fade ? 'opacity-100' : 'opacity-0'}`}
+          className={`p-6 bg-white rounded-lg shadow-lg transition-opacity duration-500 ease-in-out ${fade ? 'opacity-100' : 'opacity-0'}`}
         >
           <h3 className="font-semibold mb-2">{testimonials[currentIndex].client}</h3>
           <p className="text-gray-700">{testimonials[currentIndex].quote}</p>
