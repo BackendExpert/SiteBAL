@@ -1,4 +1,14 @@
 import React from 'react'
+import html from '../../assets/html.png'
+import css from '../../assets/css.png'
+import sass from '../../assets/sass.png'
+import js from '../../assets/js.png'
+import react from '../../assets/react.png'
+import node from '../../assets/nodejs.png'
+import mysql from '../../assets/mysql.png'
+import mongo from '../../assets/mongodb.png'
+import vite from '../../assets/vite.png'
+
 
 const Tech = () => {
   return (
@@ -8,13 +18,32 @@ const Tech = () => {
         <div className="">
             <div className="grid md:grid-cols-8 grid-cols-4 gap-4">
                 <div className="p-2">
-                    <img src="https://img.icons8.com/?size=48&id=20909&format=png" alt="" />
+                    <img src={html} alt="" />
                 </div>
-                <div className="p-2">hi all</div>
-                <div className="p-2">hi all</div>
-                <div className="p-2">hi all</div>
-                <div className="p-2">hi all</div>
-                <div className="p-2">hi all</div>
+                <div className="p-2">
+                    <img src={css} alt="" />
+                </div>
+                <div className="p-2">
+                    <img src={sass} alt="" />
+                </div>
+                <div className="p-2">
+                    <img src={js} alt="" />
+                </div>
+                <div className="p-2">
+                    <img src={react} alt="" />
+                </div>
+                <div className="p-2">
+                    <img src={node} alt="" />
+                </div>
+                <div className="p-2">
+                    <img src={vite} alt="" />
+                </div>
+                <div className="p-2">
+                    <img src={mysql} alt="" />
+                </div>
+                <div className="p-2">
+                    <img src={mongo} alt="" />
+                </div>
             </div>
         </div>
     </div>
