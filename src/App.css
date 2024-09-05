@@ -1,3 +1,4 @@
-.titleText{
-    color: blueviolet;
+:root{
+    --purpleColor: #A020F0;
+    --btnhoverColor: white;
 }

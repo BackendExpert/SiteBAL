@@ -3,6 +3,8 @@ import HPRight from '../../assets/HomePageRight.png'
 import { BsDot } from 'react-icons/bs'
 import ServiceImg from '../../assets/Services.png'
 import OurPortfolio from './OurPortfolio'
+import ComLogo from '../../assets/Logo.png'
+import BtnDefault from '../Buttons/BtnDefault'
 
 const HomePage = () => {
     const services = [
@@ -18,21 +20,41 @@ const HomePage = () => {
     <div className='min-h-screen bg-purple-300/10 pt-16 px-0'>
         <div className="md:flex justify-between mb-16 px-24">
             <div className="w-full md:pt-32 md:mb-0 mb-16">
-                <p className="text-gray-500 md:text-5xl text-3xl md:leading-[60px] titleFont">Unleashing the Power of Technology for Your Success with <span className='titleFont text-purple-600'>Black alpha labs</span></p>
+                <p className="text-gray-500 md:text-4xl font-semibold text-xl md:leading-[50px]">Unleashing the Power of Technology for Your Success with <span className='titleFont text-purple-600'>Black alpha labs</span></p>
 
-                <p className="md:mt-24 mt-4 titleText">
+                <p className="md:mt-8 mt-4 titleText">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis asperiores tempora sunt quisquam est ullam deserunt assumenda quasi doloremque at debitis quidem, amet ea magnam, voluptate dignissimos, ex eligendi.
                     Vitae quasi nisi soluta fugiat similique, voluptates blanditiis, cupiditate error voluptatum exercitationem sapiente id esse eius praesentium, commodi suscipit sint natus. Provident quos repudiandae, eum alias reiciendis totam voluptas eveniet.
                 </p>
 
                 <div className="mt-8">
-                    <button className='bg-purple-600 text-white py-4 px-16 rounded-full duration-500 hover:bg-purple-700'>Get Started</button>
+                    <BtnDefault btnTitle={"Get Started"}/>
                 </div>
             </div>
             <div className="w-full md:block hidden">
                 <img src={HPRight} alt="" />
             </div>
         </div>
+
+        {/* about us */}
+        <div className="pb-8 md:px-24 bg-purple-500/20">
+            <div className="md:flex py-16">
+                <div className="w-full">
+                    <center><img src={ComLogo} alt="" className='rounded-2xl'/></center>
+                    <h1 className="text-center uppercase font-bold mt-4 text-purple-800">Black alpha labs</h1>
+                </div>
+                <div className="w-full">
+                    <h1 className="text-purple-600 text-xl font-semibold text-center">Welcome to BlackAlphaLabs</h1>
+                    <p className="my-4">
+                        At <span className='text-purple-600 font-semibold'>BlackAlphaLabs</span>, we are more than just a software company; we are innovators, creators, and problem-solvers dedicated to transforming ideas into reality. Founded with a passion for technology and a commitment to excellence, we strive to deliver cutting-edge solutions that empower businesses to thrive in the digital age.
+                    </p>
+                    <BtnDefault btnTitle={"About Us"} />
+                </div>
+            </div>
+
+        </div>
+
+        {/* end about us */}
 
 
         <div className="pb-8 md:px-24 py-16">
