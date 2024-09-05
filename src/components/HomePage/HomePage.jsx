@@ -2,6 +2,7 @@ import React from 'react'
 import HPRight from '../../assets/HomePageRight.png'
 import { BsDot } from 'react-icons/bs'
 import ServiceImg from '../../assets/Services.png'
+import OurPortfolio from './OurPortfolio'
 
 const HomePage = () => {
     const services = [
@@ -110,6 +111,11 @@ const HomePage = () => {
                     </a>
                 </center>
             </div>
+        </div>  
+
+        
+        <div className="pb-8 md:px-8">
+            <OurPortfolio />
         </div>  
 
         
