@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import NavBar from "./components/HomePage/NavBar";
 import './App.css'
+import Footer from "./components/HomePage/footer";
 
 export default function App() {
   const [showNavBar, setShowNavBar] = useState(true);
@@ -40,6 +41,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
