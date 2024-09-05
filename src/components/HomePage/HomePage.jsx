@@ -7,6 +7,7 @@ import ComLogo from '../../assets/Logo.png'
 import BtnDefault from '../Buttons/BtnDefault'
 import Typewriter from './TypeWriter'
 import { TypeAnimation } from 'react-type-animation';
+import UserSay from './UserSay'
 
 const HomePage = () => {
     const services = [
@@ -103,6 +104,13 @@ const HomePage = () => {
             <OurPortfolio />
         </div>  
 
+        <div className="pb-16 md:px-24 px-8 bg-white">
+            <UserSay />
+        </div>  
+
+        <div className="pb-8 md:px-24 px-8 bg-purple-500/20">
+            <OurPortfolio />
+        </div> 
         
     </div>
   )
