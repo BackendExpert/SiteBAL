@@ -108,7 +108,9 @@ const CurrentCareers = () => {
                             <div className="w-1/6">
                                 <img src={JobImg} alt="" />
                             </div>
-                            <div className="w-full">asdasd</div>
+                            <div className="w-full">
+                                <h1 className="text-purple-600 font-semibold text-xl mt-2">{job.name}</h1>
+                            </div>
                             <div className="w-1/6">asdasd</div>
                         </div>
                     )
