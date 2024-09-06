@@ -31,8 +31,7 @@ const WhyUs = () => {
                     <div className="flex my-2">
                         <BsDot className='h-10 w-auto text-purple-800 '/>
                         <p className="text-gray-600"><span className='text-purple-800 font-semibold'>Diverse Opportunities:</span> From software development to design and project management, we offer diverse career paths.</p>
-                    </div>
-                    
+                    </div>                    
                     
                 </div>
             </div>

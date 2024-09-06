@@ -2,6 +2,7 @@ import React from 'react'
 import CareerImg from '../../assets/InterView.png'
 import BtnDefault from '../Buttons/BtnDefault'
 import WhyUs from './WhyUs'
+import CurrentCareers from './CurrentCareers'
 
 
 const Careers = () => {
@@ -29,6 +30,10 @@ const Careers = () => {
 
         <div className="pb-16 md:px-24 px-8 bg-white">
             <WhyUs />
+        </div>  
+
+        <div className="pb-16 md:px-24 px-8 bg-white">
+            <CurrentCareers />
         </div>  
     </div>
 
