@@ -6,12 +6,12 @@ const NavBar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const navData = [
-        { id: 1, name: 'Home', link: '' },
+        { id: 1, name: 'Home', link: '/' },
         { id: 2, name: 'About Us', link: '' },
         { id: 3, name: 'Services', link: '' },
         { id: 4, name: 'Portfolio', link: '' },
         { id: 5, name: 'Blog', link: '' },
-        { id: 6, name: 'Careers', link: '' },
+        { id: 6, name: 'Careers', link: 'Careers' },
         { id: 7, name: 'Contact Us', link: '' },
     ];
 
