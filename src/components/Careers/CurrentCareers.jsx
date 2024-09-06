@@ -1,5 +1,6 @@
 import React from 'react'
 import JobImg from '../../assets/job.png'
+import BtnDefault from '../Buttons/BtnDefault'
 
 const CurrentCareers = () => {
     const Careers = [
@@ -105,35 +106,39 @@ const CurrentCareers = () => {
             {
                 Careers.map((job, index) => {
                     return (
-                        <div className="md:flex my-4 border-b border-purple-500">
-                            <div className="w-1/6">
+                        <div className={`md:flex my-4 ${index !== Careers.length - 1 ? 'border-b border-purple-500' : ''}`}>
+                            <div className="w-1/6 md:block hidden">
                                 <img src={JobImg} alt="" />
                             </div>
                             <div className="w-full">
                                 <h1 className="text-purple-600 font-semibold text-xl mt-2">{job.name}</h1>
 
-                                <h1 className="mt-2 font-semibold ">Requirements</h1>
+                                <h1 className="mt-2 font-semibold">Requirements</h1>
                                 <p className="text-gray-500">
                                     {job.Requirements.map((item, index) => (
                                         <li key={index} className="mb-2">{item}</li>
                                     ))}
                                 </p>
 
-                                <h1 className="mt-2 font-semibold ">Experience</h1>
+                                <h1 className="mt-2 font-semibold">Experience</h1>
                                 <p className="text-gray-500">
                                     {job.exp.map((item, index) => (
                                         <li key={index} className="mb-2">{item}</li>
                                     ))}
                                 </p>
 
-                                <h1 className="mt-2 font-semibold ">Responsibilities</h1>
+                                <h1 className="mt-2 font-semibold">Responsibilities</h1>
                                 <p className="text-gray-500">
                                     {job.Responsibilities.map((item, index) => (
                                         <li key={index} className="mb-2">{item}</li>
                                     ))}
                                 </p>
                             </div>
-                            <div className="w-1/6">asdasd</div>
+                            <div className="md:w-1/6 md:mb-0 mb-8">
+                                <a href="">
+                                    <BtnDefault btnTitle={"Apply Now"} />
+                                </a>
+                            </div>
                         </div>
                     )
                 })

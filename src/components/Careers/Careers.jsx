@@ -3,6 +3,8 @@ import CareerImg from '../../assets/InterView.png'
 import BtnDefault from '../Buttons/BtnDefault'
 import WhyUs from './WhyUs'
 import CurrentCareers from './CurrentCareers'
+import HowApply from './HowApply'
+import LifeAt from './LifeAt'
 
 
 const Careers = () => {
@@ -36,7 +38,14 @@ const Careers = () => {
 
         <div className="pb-16 md:px-24 px-8 bg-white" id='CurrentCareer'>
             <CurrentCareers />
-        </div>  
+        </div> 
+
+        <div className="pb-16 md:px-24 px-8 bg-white">
+            <HowApply />
+        </div>   
+        <div className="pb-16 md:px-24 px-8 bg-white">
+            <LifeAt />
+        </div>   
     </div>
 
 
