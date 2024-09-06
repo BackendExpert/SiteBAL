@@ -101,15 +101,37 @@ const CurrentCareers = () => {
   return (
     <div>
         <div className="">
+            <h1 className="text-center text-3xl font-semibold text-purple-800">Job Opening</h1>
             {
                 Careers.map((job, index) => {
                     return (
-                        <div className="md:flex">
+                        <div className="md:flex my-4 border-b border-purple-500">
                             <div className="w-1/6">
                                 <img src={JobImg} alt="" />
                             </div>
                             <div className="w-full">
                                 <h1 className="text-purple-600 font-semibold text-xl mt-2">{job.name}</h1>
+
+                                <h1 className="mt-2 font-semibold ">Requirements</h1>
+                                <p className="text-gray-500">
+                                    {job.Requirements.map((item, index) => (
+                                        <li key={index} className="mb-2">{item}</li>
+                                    ))}
+                                </p>
+
+                                <h1 className="mt-2 font-semibold ">Experience</h1>
+                                <p className="text-gray-500">
+                                    {job.exp.map((item, index) => (
+                                        <li key={index} className="mb-2">{item}</li>
+                                    ))}
+                                </p>
+
+                                <h1 className="mt-2 font-semibold ">Responsibilities</h1>
+                                <p className="text-gray-500">
+                                    {job.Responsibilities.map((item, index) => (
+                                        <li key={index} className="mb-2">{item}</li>
+                                    ))}
+                                </p>
                             </div>
                             <div className="w-1/6">asdasd</div>
                         </div>
