@@ -40,8 +40,9 @@ const HomePage = () => {
                 </p>
 
                 <p className="md:mt-8 mt-4 titleText">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis asperiores tempora sunt quisquam est ullam deserunt assumenda quasi doloremque at debitis quidem, amet ea magnam, voluptate dignissimos, ex eligendi.
-                    Vitae quasi nisi soluta fugiat similique, voluptates blanditiis, cupiditate error voluptatum exercitationem sapiente id esse eius praesentium, commodi suscipit sint natus. Provident quos repudiandae, eum alias reiciendis totam voluptas eveniet.
+                    At BlackAlphaLabs, we specialize in delivering cutting-edge software solutions designed to drive your business forward. Whether you're looking to build scalable web applications, implement cloud solutions, or design user-centric interfaces, we have the expertise to make it happen.
+
+                    Our team of experts combines innovation with technology to transform your ideas into powerful solutions. We’re committed to providing high-quality, reliable services that are tailored to meet your specific business needs.
                 </p>
 
                 <div className="mt-8">
