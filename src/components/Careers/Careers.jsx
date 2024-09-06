@@ -16,7 +16,9 @@ const Careers = () => {
                 </p>
 
                 <div className="mt-8">
-                    <BtnDefault btnTitle={"View Careers"}/>
+                    <a href="#CurrentCareer">
+                        <BtnDefault btnTitle={"View Careers"}/>
+                    </a>
                 </div>
             </div>
             <div className="w-full md:block hidden mt-20">
@@ -32,7 +34,7 @@ const Careers = () => {
             <WhyUs />
         </div>  
 
-        <div className="pb-16 md:px-24 px-8 bg-white">
+        <div className="pb-16 md:px-24 px-8 bg-white" id='CurrentCareer'>
             <CurrentCareers />
         </div>  
     </div>
