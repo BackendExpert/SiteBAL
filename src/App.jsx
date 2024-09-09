@@ -5,6 +5,8 @@ import NavBar from "./components/HomePage/NavBar";
 import './App.css'
 import Footer from "./components/HomePage/footer";
 import Careers from "./components/Careers/Careers";
+import ChatButton from "./components/Defaults/ChatButton";
+
 
 export default function App() {
   const [showNavBar, setShowNavBar] = useState(true);
@@ -41,9 +43,10 @@ export default function App() {
         </div>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/Careers" element={<Careers /> } />
+          <Route path="/Careers" element={<Careers />} />
         </Routes>
         <Footer />
+        <ChatButton /> {/* Add the ChatButton here to display on every page */}
       </BrowserRouter>
     </div>
   );
