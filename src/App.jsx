@@ -7,7 +7,6 @@ import Footer from "./components/HomePage/footer";
 import Careers from "./components/Careers/Careers";
 import ChatButton from "./components/Defaults/ChatButton";
 
-
 export default function App() {
   const [showNavBar, setShowNavBar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
