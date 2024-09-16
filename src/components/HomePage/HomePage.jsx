@@ -25,27 +25,31 @@ const HomePage = () => {
     ]
 
   return (
-    <div className='min-h-screen bg-white md:pt-2 pt-24 px-0'>
+    <div className='min-h-screen bg-white md:pt-2 md:pt-24 pt-12 px-0'>
         <div className="md:flex justify-between mb-16 md:px-24 px-6">
-            <div className="w-full md:pt-32 md:mb-0 mb-16">
-                <img src={LogoNew} alt="" className='h-32 w-auto'/>
-                <p className="text-gray-500 md:text-4xl font-semibold text-xl md:leading-[50px]">We Create and Innovate 
+            <div className="w-full pt-16 md:pt-32 mb-8 md:mb-0 text-center md:text-left">
+                <img src={LogoNew} alt="" className="h-24 w-auto md:h-32 mx-auto md:mx-0"/>
+                <p className="text-gray-500 font-semibold text-2xl md:text-4xl md:leading-[50px] mt-4 md:mt-0">
+                    We Create and Innovate 
                 </p>
-
-                <h1 className="text-3xl font-semibold text-purple-500">Software Solutions</h1>
-
-                <p className="md:mt-8 mt-4 font-semibold">
+                
+                <h1 className="text-2xl md:text-3xl font-semibold text-purple-500 mt-2 md:mt-0">
+                    Software Solutions
+                </h1>
+                
+                <p className="mt-4 md:mt-8 text-base md:text-lg font-semibold">
                     Professional businesses understand the value of bespoke
                 </p>
-
-                <p className="font-semibold">
+                
+                <p className="text-base md:text-lg font-semibold">
                     software in achieving new heights of success.
                 </p>
-
-                <div className="mt-8">
+                
+                <div className="mt-6 md:mt-8">
                     <BtnDefault btnTitle={"Get Started"}/>
                 </div>
             </div>
+
             <div className="w-full md:block hidden">
                 <img src={HPRight} alt="" />
             </div>
