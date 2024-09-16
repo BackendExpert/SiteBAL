@@ -27,7 +27,7 @@ const HomePage = () => {
   return (
     <div className='min-h-screen bg-white md:pt-2 md:pt-24 pt-12 px-0'>
         <div className="md:flex justify-between mb-16 md:px-24 px-6">
-            <div className="w-full pt-16 md:pt-32 mb-8 md:mb-0 text-center md:text-left">
+            <div className="w-full pt-16 md:pt-32 mb-8 md:mb-0 text-center md:text-left min-h-screen">
                 <img src={LogoNew} alt="" className="h-24 w-auto md:h-32 mx-auto md:mx-0"/>
                 <p className="text-gray-500 font-semibold text-2xl md:text-4xl md:leading-[50px] mt-4 md:mt-0">
                     We Create and Innovate 
