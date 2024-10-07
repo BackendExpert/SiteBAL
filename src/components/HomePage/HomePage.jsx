@@ -19,8 +19,8 @@ const HomePage = () => {
         {id: 3, name: 'IT Consulting', img: ServiceImg},
         {id: 4, name: 'Cloud Solutions', img: ServiceImg},
         {id: 5, name: 'UI/UX Design', img: ServiceImg},
-        {id: 6, name: 'IT Support and Maintenance', img: ServiceImg},        
-        {id: 7, name: 'IT Support and Maintenance', img: ServiceImg},      
+        {id: 6, name: 'eCommerce Solutions', img: ServiceImg},        
+        {id: 7, name: 'API Development and Integration', img: ServiceImg},      
         {id: 8, name: 'IT Support and Maintenance', img: ServiceImg},      
     ]
 
