@@ -14,14 +14,12 @@ import LogoNew from '../../assets/LogoNew.png'
 
 const HomePage = () => {
     const services = [
-        {id: 1, name: 'Custom Software Development', img: ServiceImg},
-        {id: 2, name: 'Web Development', img: ServiceImg},
-        {id: 3, name: 'IT Consulting', img: ServiceImg},
-        {id: 4, name: 'Cloud Solutions', img: ServiceImg},
-        {id: 5, name: 'UI/UX Design', img: ServiceImg},
-        {id: 6, name: 'eCommerce Solutions', img: ServiceImg},        
-        {id: 7, name: 'API Development and Integration', img: ServiceImg},      
-        {id: 8, name: 'IT Support and Maintenance', img: ServiceImg},      
+        {id: 1, name: 'Web Development', img: ServiceImg},
+        {id: 2, name: 'IT Consulting', img: ServiceImg},
+        {id: 3, name: 'Cloud Solutions', img: ServiceImg},
+        {id: 4, name: 'UI/UX Design', img: ServiceImg},
+        {id: 5, name: 'API Development and Integration', img: ServiceImg},      
+        {id: 6, name: 'IT Support and Maintenance', img: ServiceImg},      
     ]
 
   return (
@@ -79,7 +77,7 @@ const HomePage = () => {
         <div className="pb-8 md:px-24 px-8 py-20">
             <h1 className="text-center text-4xl text-gray-500 font-semibold text-purple-600 ">Our Services</h1>
 
-            <div className="md:grid grid-cols-4 gap-6 my-16">
+            <div className="md:grid grid-cols-3 gap-6 my-16">
                 {
                     services.map((service, index) => {
                         return (
