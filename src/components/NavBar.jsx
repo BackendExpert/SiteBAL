@@ -12,7 +12,7 @@ const NavBar = () => {
         // { id: 4, name: 'Portfolio', link: '' },
         // { id: 5, name: 'Blog', link: '' },
         { id: 6, name: 'Careers', link: 'Careers' },
-        { id: 7, name: 'Contact Us', link: '' },
+        { id: 7, name: 'Contact Us', link: 'ContactUs' },
     ];
 
     const toggleMobileMenu = () => {
