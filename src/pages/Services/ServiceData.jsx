@@ -51,7 +51,19 @@ const ServiceData = () => {
         },
     ]
   return (
-    <div>ServiceData</div>
+    <div>
+        <div className="md:grid grid-cols-3 gap-3">
+            {
+                OurService.map((service, index) => {
+                    return (
+                        <div className="">
+                            g
+                        </div>
+                    )
+                })
+            }
+        </div>
+    </div>
   )
 }
 
