@@ -87,10 +87,10 @@ const ContactUs = () => {
                     <span className='font-semibold text-purple-500 pr-2'>Instagram:</span> <a href="" target='_blank'>BlackAlphaLabs</a>  
                 </p>
                 <p className="my-4">
-                    <span className='font-semibold text-purple-500 pr-2'>Github:</span> <a href="" target='_blank'>BlackAlphaLabs</a>  
+                    <span className='font-semibold text-purple-500 pr-2'>Github:</span> <a href="https://github.com/BlackAlphaLabs" target='_blank'>BlackAlphaLabs</a>  
                 </p>
                 <p className="my-4">
-                    <span className='font-semibold text-purple-500 pr-2'>Patreon:</span> <a href="" target='_blank'>BlackAlphaLabs</a>  
+                    <span className='font-semibold text-purple-500 pr-2'>Patreon:</span> <a href="https://www.patreon.com/BlackAlphaLabs" target='_blank'>BlackAlphaLabs</a>  
                 </p>
             </div>
         </div>
