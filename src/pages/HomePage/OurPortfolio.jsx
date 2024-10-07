@@ -1,6 +1,6 @@
 import React from 'react'
 import ServiceImg from '../../assets/Service.png'
-import BtnDefault from '../Buttons/BtnDefault'
+import BtnDefault from '../../components/Buttons/BtnDefault'
 
 const OurPortfolio = () => {
     const Projects = [

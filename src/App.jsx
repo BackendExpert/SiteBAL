@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePage from "./components/HomePage/HomePage";
-import NavBar from "./components/HomePage/NavBar";
+import HomePage from "./pages/HomePage/HomePage";
+import NavBar from "./components/NavBar";
 import './App.css'
-import Footer from "./components/HomePage/footer";
-import Careers from "./components/Careers/Careers";
+import Footer from "./components/Footer";
+import Careers from "./pages/Careers/Careers";
 import ChatButton from "./components/Defaults/ChatButton";
 
 export default function App() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import JobImg from '../../assets/job.png'
-import BtnDefault from '../Buttons/BtnDefault'
+import BtnDefault from '../../components/Buttons/BtnDefault'
 
 const CurrentCareers = () => {
     const Careers = [

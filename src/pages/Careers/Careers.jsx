@@ -1,6 +1,6 @@
 import React from 'react'
 import CareerImg from '../../assets/InterView.png'
-import BtnDefault from '../Buttons/BtnDefault'
+import BtnDefault from '../../components/Buttons/BtnDefault'
 import WhyUs from './WhyUs'
 import CurrentCareers from './CurrentCareers'
 import HowApply from './HowApply'

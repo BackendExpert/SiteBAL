@@ -4,7 +4,7 @@ import { BsDot } from 'react-icons/bs'
 import ServiceImg from '../../assets/Service.png'
 import OurPortfolio from './OurPortfolio'
 import ComLogo from '../../assets/Logo.png'
-import BtnDefault from '../Buttons/BtnDefault'
+import BtnDefault from '../../components/Buttons/BtnDefault'
 import Typewriter from './TypeWriter'
 import { TypeAnimation } from 'react-type-animation';
 import UserSay from './UserSay'
