@@ -6,7 +6,7 @@ import { BsDot } from 'react-icons/bs'
 const AboutAs = () => {
   return (
     <div className='min-h-screen bg-white md:pt-2 pt-24 px-0'>
-        <div className="md:flex justify-between md:mb-16 md:px-24 px-6 md:min-h-screen">
+        <div className="md:flex justify-between md:mb-16 md:px-24 px-6">
             <div className="w-full md:pt-40 md:mb-0 mb-16">
                 <h1 className="text-gray-500 md:text-4xl font-semibold text-xl md:leading-[50px]"><span className='text-purple-800'>About Us</span></h1>
                 <p className="md:mt-8 mt-4 titleText">
