@@ -52,12 +52,15 @@ const ServiceData = () => {
     ]
   return (
     <div>
-        <div className="md:grid grid-cols-3 gap-3">
+        <div className="md:grid grid-cols-3 gap-8">
             {
                 OurService.map((service, index) => {
                     return (
-                        <div className="">
-                            g
+                        <div data-aos="flip-left" className="py-8 px-8 text-center bg-gray-200 mx-4 rounded-xl duration-500 hover:shadow-xl">
+                            <h1 className="font-semibold mb-4 text-purple-600">{service.service}</h1>
+                            <div className="">
+                                {service.serviceData}
+                            </div>
                         </div>
                     )
                 })
