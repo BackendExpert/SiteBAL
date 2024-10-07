@@ -14,8 +14,8 @@ const Service = () => {
                 </p>
 
                 <div className="mt-8">
-                    <a href="#CurrentCareer">
-                        <BtnDefault btnTitle={"View Careers"}/>
+                    <a href="#ViewService">
+                        <BtnDefault btnTitle={"View Service"}/>
                     </a>
                 </div>
             </div>
@@ -24,7 +24,7 @@ const Service = () => {
             </div>
         </div>
 
-        <div className="pb-16 md:px-24 px-8 bg-white">
+        <div className="pb-16 md:px-24 px-8 bg-white" id='ViewService'>
             <ServiceData />
         </div>  
     </div>
