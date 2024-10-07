@@ -7,7 +7,7 @@ const NavBar = () => {
 
     const navData = [
         { id: 1, name: 'Home', link: '/' },
-        { id: 2, name: 'About Us', link: '' },
+        { id: 2, name: 'About Us', link: 'AboutAs' },
         { id: 3, name: 'Services', link: 'Service' },
         { id: 4, name: 'Portfolio', link: '' },
         { id: 5, name: 'Blog', link: '' },

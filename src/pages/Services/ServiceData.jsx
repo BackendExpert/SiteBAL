@@ -48,12 +48,12 @@ const ServiceData = () => {
     ];
 
     return (
-        <div className="md:grid grid-cols-3 gap-8">
+        <div className="md:grid grid-cols-3 gap-8 ">
             {OurService.map((service) => (
                 <div 
                     key={service.id} 
                     data-aos="flip-left" 
-                    className="py-8 px-8 text-center bg-gray-200 mx-4 rounded-xl duration-500 hover:shadow-xl"
+                    className="md:my-0 my-8 py-8 px-8 text-center bg-gray-200 mx-4 rounded-xl duration-500 hover:shadow-xl"
                 >
                     <center>
                         <div className="mt-[-300px] bg-purple-500 px-4 py-4 inline-block mx-auto rounded-full">
