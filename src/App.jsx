@@ -9,6 +9,7 @@ import ChatButton from "./components/Defaults/ChatButton";
 import Service from "./pages/Services/Service";
 import AboutAs from "./pages/AboutUs/AboutAs";
 import ContactUs from "./pages/ContactUs/ContactUs";
+import Projects from "./pages/Projects/Projects";
 
 export default function App() {
   const [showNavBar, setShowNavBar] = useState(true);
@@ -49,6 +50,7 @@ export default function App() {
           <Route path="/Service" element={<Service /> } />
           <Route path="/AboutAs" element={<AboutAs /> } />
           <Route path="/ContactUs" element={<ContactUs /> } />
+          <Route path="/Projects" element={<Projects />} />
         </Routes>
         <Footer />
         <ChatButton /> {/* Add the ChatButton here to display on every page */}
