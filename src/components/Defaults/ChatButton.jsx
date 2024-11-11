@@ -8,26 +8,6 @@ const problems = [
       question: "How can I get started with your software?", 
       answer: "To get started, please visit our 'Getting Started' page. You will find installation guides, user manuals, and tutorials to help you begin." 
     },
-    { 
-      id: 2, 
-      question: "What are the system requirements for your software?", 
-      answer: "Our software requires the following system specifications: Windows 10 or later, macOS 10.15 or later, 4 GB RAM, and 500 MB of free disk space. For detailed requirements, refer to the 'System Requirements' section on our website." 
-    },
-    { 
-      id: 3, 
-      question: "How can I contact technical support?", 
-      answer: "You can reach our technical support team via email at support@yourcompany.com, or through the 'Contact Us' page on our website. We also offer live chat support during business hours." 
-    },
-    { 
-      id: 4, 
-      question: "How do I update my software to the latest version?", 
-      answer: "To update your software, go to the 'Settings' menu and select 'Check for Updates.' Follow the prompts to download and install the latest version. For more details, visit our 'Update Guide' page." 
-    },
-    { 
-      id: 5, 
-      question: "Where can I find the API documentation?", 
-      answer: "API documentation is available in the 'Developer Resources' section on our website. You can access detailed guides and references to help you integrate our API with your applications." 
-    },
   ];
 
 const ChatButton = () => {
