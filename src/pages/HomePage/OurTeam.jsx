@@ -1,19 +1,23 @@
 import React from 'react'
 import { BsEnvelope, BsFacebook, BsGithub, BsLinkedin } from 'react-icons/bs'
 import TeamImg from '../../assets/Team.png'
+import Founder from '../../assets/Founder.jpg'
+import CTO from '../../assets/CTO.jpg'
+import CEO from '../../assets/CEO.jpg'
+
 
 const OurTeam = () => {
     const TeamMembers = [
         {
             id: 1,
-            name: 'John Smith',
-            image: TeamImg,
-            post: 'Founder & CEO',
+            name: 'Jehan Weerasuriya',
+            image: CEO,
+            post: 'Chief Executive Officer',
             Social: [
                 {
                     id: 1,
                     Icon: <BsLinkedin />,
-                    link: ''
+                    link: 'https://www.linkedin.com/in/jehanweerasuriya/'
                 },
                 {
                     id: 2,
@@ -35,14 +39,14 @@ const OurTeam = () => {
 
         {
             id: 2,
-            name: 'John Smith',
-            image: TeamImg,
-            post: 'Founder & CEO',
+            name: 'Supun Nayanajith',
+            image: Founder,
+            post: 'Founder',
             Social: [
                 {
                     id: 1,
                     Icon: <BsLinkedin />,
-                    link: ''
+                    link: 'https://www.linkedin.com/in/supun-nayanajith-a13b2b165/'
                 },
                 {
                     id: 2,
@@ -64,14 +68,14 @@ const OurTeam = () => {
 
         {
             id: 3,
-            name: 'John Smith asd',
-            image: TeamImg,
-            post: 'Founder & CEO',
+            name: 'Anupa Gamage',
+            image: CTO,
+            post: 'Chief Technical Officer',
             Social: [
                 {
                     id: 1,
                     Icon: <BsLinkedin />,
-                    link: ''
+                    link: 'https://www.linkedin.com/in/anupa-gamage-890a09265/'
                 },
                 {
                     id: 2,
@@ -102,7 +106,7 @@ const OurTeam = () => {
                 TeamMembers.map((team, index) => {
                     return (
                         <div className="flex flex-col items-center md:my-0 my-8">
-                            <img src={team.image} alt={team.name} className="h-40 w-auto" />
+                            <img src={team.image} alt={team.name} className="h-40 w-auto rounded-full" />
 
                             <h2 className="text-xl font-semibold text-purple-800 mt-8">{team.name}</h2>
                             <p className="text-gray-600">{team.post}</p>
