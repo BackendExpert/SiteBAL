@@ -110,9 +110,9 @@ const HomePage = () => {
             <OurTeam />
         </div>  
 
-        <div className="pb-8 md:px-24 px-8 bg-purple-500/20">
+        {/* <div className="pb-8 md:px-24 px-8 bg-purple-500/20">
             <UserSay />
-        </div>
+        </div> */}
 
         <div className="pb-16 md:px-24 px-8 bg-white">
             <Tech />
