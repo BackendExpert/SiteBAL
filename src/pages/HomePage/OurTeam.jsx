@@ -39,35 +39,6 @@ const OurTeam = () => {
 
         {
             id: 2,
-            name: 'Supun Nayanajith',
-            image: Founder,
-            post: 'Founder',
-            Social: [
-                {
-                    id: 1,
-                    Icon: <BsLinkedin />,
-                    link: 'https://www.linkedin.com/in/supun-nayanajith-a13b2b165/'
-                },
-                {
-                    id: 2,
-                    Icon: <BsGithub />,
-                    link: ''
-                },
-                {
-                    id: 3,
-                    Icon: <BsFacebook />,
-                    link: ''
-                },
-                {
-                    id: 4,
-                    Icon: <BsEnvelope />,
-                    link: ''
-                }
-            ]
-        },
-
-        {
-            id: 3,
             name: 'Anupa Gamage',
             image: CTO,
             post: 'Chief Technical Officer',
